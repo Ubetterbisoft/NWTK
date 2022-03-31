@@ -10,7 +10,7 @@ Jeder Router, den ein Paket passiert, liefert seine IP-Adresse samt Zeit Stempel
 
 # ARP
 
-Das Address Resolution Protocol (**ARP**) ist ein Netzwerkprotokoll, das zu einer Netzwerkadresse der  Internetschicht die physische Adresse (Hardware-Adresse) der  Netzzugangsschicht ermittelt und diese Zuordnung gegebenenfalls in den **ARP**-Tabellen der beteiligten Rechner hinterlegt.
+Das Address Resolution Protocol (**ARP**) ist ein Netzwerkprotokoll, das zu einer IP-Adresse (Netzwerkadresse) der  Internetschicht die MAC-Adresse(physische Adresse, Hardware-Adresse) der  Netzzugangsschicht ermittelt und diese Zuordnung gegebenenfalls in den **ARP**-Tabellen der beteiligten Rechner hinterlegt.
 
 Dieses Protokoll ordnet der IPv4-Adresse die Mac-Adresse zu (mapping) und verwaltet den ARP-Cache. Die Einträge können statisch oder dynamisch sein. Statische einträge müssen händisch gemacht werden und bleiben immer im Cache, dynamische Einträge werden mit einem Zeitstempel versehen und bleiben nur für kurze Zeit (2minuten bei Microsoft OS) im Cache. Mit dem Kommando `arp -a`  kann dies kontrolliert werden.
 
