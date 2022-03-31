@@ -22,4 +22,4 @@ ist das Routerinterface nicht erreichbar, ist auch der Zielnode nicht erreichbar
 
 Wenn ein Client die IP-Adressierung auf "automatisch beziehen" gestellt hat, versucht er von einem DHCP-Server eine IP-Adresse zu beziehen, die er dann für die Netzwerkverbindung für eine bestimmte Zeit (lease time) verwenden kann.
 
-Der Client nimmt Kontakt mit einem DHCP Server auf und sendet eine Anfrage. Der Server nimmt eine Adresse aus seinem Adresspool(am Server eingestellt) und bietet sie dem Client an. Der Client nimmt die Adresse per Request an, der Server bestätigt die Annahme (Ack).
+Der Client nimmt Kontakt mit einem DHCP Server auf und sendet eine Anfrage. Der Server nimmt eine Adresse aus seinem Adresspool(am Server eingestellt) und bietet sie dem Client an. Der Client nimmt die Adresse per Request an, der Server bestätigt die Annahme (Acknolegment).
